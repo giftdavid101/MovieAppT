@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Flex, Text } from "@chakra-ui/react";
 
+
 const Header = () => {
   const HeaderStyle = {
     width: "100%",
@@ -14,7 +15,6 @@ const Header = () => {
     color:"#fff",
 
   }
-
   return (
     <Box sx={HeaderStyle}>
       <Flex justifyContent={{base:"center", lg:"flex-start"}} className={"container"}>
